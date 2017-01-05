@@ -32,10 +32,10 @@
   <project name="AGL/meta-agl-devel" path="meta-agl-devel" />
 
   <!-- Yocto/OpenEmbedded things. -->
-  <project name="poky" path="poky" remote="yocto" revision="krogoth" />
-  <project name="meta-openembedded" path="meta-openembedded" remote="openembedded" revision="krogoth" />
+  <project name="poky" path="poky" remote="yocto" revision="morty" />
+  <project name="meta-openembedded" path="meta-openembedded" remote="openembedded" revision="morty" />
 
-  <!-- Qt things --> <!-- meta-qt5 has qt5.7 in branch morty -->
+  <!-- Qt things --> <!-- meta-qt5 has qt5.7.x in branch morty -->
   <project name="meta-qt5/meta-qt5" path="meta-qt5" remote="github" revision="morty" />
 
   <!-- Porter specific things. -->
@@ -45,7 +45,7 @@
   <project name="CogentEmbedded/meta-rcar" path="meta-rcar" remote="github" revision="v2.12.0" />
 
   <!-- MinnowBoard MAX specific things -->
-  <project name="meta-intel" path="meta-intel" remote="yocto" revision="krogoth" />
+  <project name="meta-intel" path="meta-intel" remote="yocto" revision="morty" />
 
   <!-- i.MX6 / e.g. wandboard specific things -->
   <project name="meta-fsl-arm" path="meta-fsl-arm" remote="yocto" revision="krogoth" />
@@ -56,7 +56,7 @@
   <project name="boundarydevices/meta-boundary" path="meta-boundary" remote="github" revision="krogoth" />
 
   <!-- ti vayu / jacinto 6 / DRA7 -->
-  <project name="meta-ti" path="meta-ti" remote="yocto" revision="krogoth" />
+  <project name="meta-ti" path="meta-ti" remote="yocto" revision="master" />
 
   <!-- iotivity -->
   <project name="meta-oic" path="meta-oic" remote="yocto" revision="1.2.0" />
@@ -65,13 +65,13 @@
   <project name="tripzero/meta-amb" path="meta-amb" remote="github" revision="master" />
 
   <!-- meta-rust -->
-  <project name="meta-rust/meta-rust" path="meta-rust" remote="github" revision="d0663639a08ed60bb83fd6eb99e3e2045b21b53c" />
+  <project name="konsulko/meta-rust" path="meta-rust" remote="github" revision="master" />
 
   <!-- rpi 2 and 3 -->
-  <project name="meta-raspberrypi" path="meta-raspberrypi" remote="yocto" revision="krogoth" />
+  <project name="meta-raspberrypi" path="meta-raspberrypi" remote="yocto" revision="master" />
 
   <!-- DragonBoard 410c specific things -->
-  <project name="meta-qcom" path="meta-qcom" remote="yocto" revision="krogoth" />
+  <project name="meta-qcom" path="meta-qcom" remote="yocto" revision="morty" />
 
   <!-- Image Security Analysis FrameWork (isafw) -->
   <project name="meta-security-isafw" path="meta-security-isafw" remote="01org" revision="master" />
