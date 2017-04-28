@@ -8,7 +8,7 @@
   />
 
   <remote name="yocto"
-          fetch="http://git.yoctoproject.org/" />
+          fetch="http://git.yoctoproject.org/git/" />
   <remote name="openembedded"
           fetch="http://git.openembedded.org/" />
 
@@ -16,7 +16,7 @@
   <remote name="github" fetch="https://github.com/" />
 
   <!-- meta-qt5  -->
-  <remote name="qt.io" fetch="git://code.qt.io/" />
+  <remote name="qt.io" fetch="http://code.qt.io/" />
 
   <!-- fsl/nxp --> <!-- likely broken -->
   <remote fetch="http://git.freescale.com/imx" name="fsl-release" />
