@@ -8,9 +8,9 @@
   />
 
   <remote name="yocto"
-          fetch="git://git.yoctoproject.org/" />
+          fetch="http://git.yoctoproject.org/" />
   <remote name="openembedded"
-          fetch="git://git.openembedded.org/" />
+          fetch="http://git.openembedded.org/" />
 
   <!-- meta-rust --> <!-- freescale bsp --> <!-- 01.org -->
   <remote name="github" fetch="https://github.com/" />
@@ -19,7 +19,7 @@
   <remote name="qt.io" fetch="git://code.qt.io/" />
 
   <!-- fsl/nxp --> <!-- likely broken -->
-  <remote fetch="git://git.freescale.com/imx" name="fsl-release" />
+  <remote fetch="http://git.freescale.com/imx" name="fsl-release" />
 
   <default revision="master"
            remote="agl"
