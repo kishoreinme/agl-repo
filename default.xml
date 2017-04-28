@@ -19,7 +19,7 @@
   <remote name="qt.io" fetch="http://code.qt.io/" />
 
   <!-- fsl/nxp --> <!-- likely broken -->
-  <remote fetch="http://git.freescale.com/imx" name="fsl-release" />
+  <remote fetch="http://git.freescale.com/git/cgit.cgi/imx" name="fsl-release" />
 
   <default revision="master"
            remote="agl"
@@ -36,7 +36,7 @@
 
   <!-- Yocto/OpenEmbedded things. -->
   <project name="poky" path="poky" remote="yocto" revision="morty" />
-  <project name="meta-openembedded" path="meta-openembedded" remote="openembedded" revision="morty" />
+  <project name="openembedded/meta-openembedded" path="meta-openembedded" remote="github" revision="morty" />
 
   <!-- Qt things --> <!-- meta-qt5 has qt5.7.x in branch morty -->
   <project name="meta-qt5/meta-qt5" path="meta-qt5" remote="github" revision="morty" />
